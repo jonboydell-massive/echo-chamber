@@ -1,0 +1,16 @@
+{
+  "name": "echo-container",
+  "description": "Echo container",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^8.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.0.1",
+    "body-parser": "^1.18.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
