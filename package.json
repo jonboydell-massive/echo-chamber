@@ -1,9 +1,9 @@
 {
   "name": "echo-container",
-  "description": "Echo container",
+  "description": "Echo container - repeats back what you say",
   "version": "1.0.0",
   "engines": {
-    "node": "^8.4.0"
+    "node": "^8.9.1"
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -11,6 +11,6 @@
     "body-parser": "^1.18.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   }
 }
