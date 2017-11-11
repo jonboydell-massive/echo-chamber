@@ -1,6 +1,6 @@
 {
   "name": "echo-container",
-  "description": "Echo container",
+  "description": "Echo container - repeats back what you say",
   "version": "1.0.0",
   "engines": {
     "node": "^8.9.1"

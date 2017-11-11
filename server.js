@@ -10,6 +10,7 @@ const echo = (req, res) => {
   const request = {}
   request.headers = req.headers
   request.body = req.body
+  request.env = process.env
   res.status(200).json(request)
 }
 
