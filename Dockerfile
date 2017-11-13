@@ -2,6 +2,7 @@ FROM node:8.9.1-alpine
 
 RUN mkdir -p /usr/app
 COPY package.json /usr/app/package.json
+
 WORKDIR /usr/app
 RUN apk --update add curl
 RUN curl -o- -L https://yarnpkg.com/install.sh | sh
